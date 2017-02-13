@@ -17,9 +17,9 @@ except:   #If it was not a interger
 text = raw_input("Filename or string. >> ")
 #text = 'm.txt' #My test code
 
-##################
-###MAIN PROBLEM###
-##################
+####################
+####MAIN PROBLEM####
+####################
 try: #Run if there is a file
     ###FIRST OPEN STATEMENT###
     a = open(text, 'r')   #checks for the file, does not exist, this fails
